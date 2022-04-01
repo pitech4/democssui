@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+</head>
+<body>
+    <navbar>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./form.html">FORM</a></li>
+        <li><a href="./product.html">PRODUCT</a></li>
+    </navbar>
+
+
+    <form action="" name="form1" onsubmit="return validate()"  method="post">
+        <div class="data">
+        <span id="email">E-mail</span>
+        <input name="email" placeholder="type your email">
+        </div>
+
+        <div class="data">
+        <span id="address">Address</span>
+        <input name="address" type="text" placeholder="type your current address">
+        </div>
+
+        <div class="data">
+        <span id="phone">Phone</span>
+        <input name="phone" type="number" placeholder="type your active number">
+        </div>
+
+        <div class="data">
+        <span id="message">Message</span>
+        <input name="message" type="text" placeholder="tell us your message">
+        </div>
+
+        <input type="submit" value="Preview" class="preview"></button>
+        <!-- <input type="submit" text="Submit" class="submit"></button> -->
+    </form>
+    <script src="form.js">
+    </script>
+    </body>
+    </html>
